@@ -9,13 +9,11 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
-import com.sylviomaggessi.cursomc.domain.Categoria;
 import com.sylviomaggessi.cursomc.domain.Cliente;
 import com.sylviomaggessi.cursomc.domain.ItemPedido;
 import com.sylviomaggessi.cursomc.domain.PagamentoComBoleto;
 import com.sylviomaggessi.cursomc.domain.Pedido;
 import com.sylviomaggessi.cursomc.domain.enums.EstadoPagamento;
-import com.sylviomaggessi.cursomc.repositories.ClienteRepository;
 import com.sylviomaggessi.cursomc.repositories.ItemPedidoRepository;
 import com.sylviomaggessi.cursomc.repositories.PagamentoRepository;
 import com.sylviomaggessi.cursomc.repositories.PedidoRepository;
